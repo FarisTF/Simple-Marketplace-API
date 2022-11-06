@@ -39,7 +39,6 @@ type IdProduk struct {
 	IDProduk			int    `json:"id_produk"`
 }
 
-// INITIALIZE DB CONNECTION (TO AVOID TOO MANY CONNECTION)
 var dbConnect *pgxpool.Pool
 func InitiateDB(dbPool *pgxpool.Pool) {
 	dbConnect = dbPool

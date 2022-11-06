@@ -19,7 +19,7 @@ func Routes(router *gin.Engine) {
 func welcome(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
 		"status":  200,
-		"message": "Welcome To Simple Marketplace API",
+		"message": "Welkam To Simple Marketplace API",
 	})
 	return
 }
