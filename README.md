@@ -15,8 +15,10 @@ Melakukan POST request ke endpoint /keranjang
 
 <h2> 2. User bisa membayar barang (stock produk berkurang) </h2>
 Melakukan DELETE request ke endpoint /keranjang/:keranjangId
+
 Melakukan PUT request ke endpoint /produk/:produkId
 
 <h1> Database </h1>
-![Skema](img/skema.png)
 Database menggunakan PostgreSQL
+
+![](img/skema.png)
